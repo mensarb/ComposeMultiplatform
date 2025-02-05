@@ -14,7 +14,7 @@ class MainActivity : ComponentActivity() {
 
         enableEdgeToEdge()
         setContent {
-            App()
+            BaseLayout()
         }
     }
 
@@ -23,6 +23,17 @@ class MainActivity : ComponentActivity() {
     )
     @Composable
     fun Preview() {
+        BaseLayout()
+    }
+
+    /**
+     * =============================================================================================
+     * base layout
+     * =============================================================================================
+     */
+
+    @Composable
+    fun BaseLayout(){
         App()
     }
 }

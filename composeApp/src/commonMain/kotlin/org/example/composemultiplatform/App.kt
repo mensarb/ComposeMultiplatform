@@ -2,7 +2,9 @@ package org.example.composemultiplatform
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material.Button
 import androidx.compose.material.MaterialTheme
@@ -28,13 +30,17 @@ fun App() {
         }
 
         Column(
+            verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally,
             modifier = Modifier
-                .fillMaxWidth()
+                .fillMaxSize()
         ) {
-            Button(onClick = {
-                showContent = !showContent
-            }) {
+            Button(
+                onClick = {
+                    showContent = !showContent
+                },
+                modifier = Modifier
+            ) {
                 Text("Click me!")
             }
 
