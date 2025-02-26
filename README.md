@@ -16,3 +16,7 @@ Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-mu
 reference: https://www.youtube.com/watch?v=WT9-4DXUqsM
 
 project generated via template: https://kmp.jetbrains.com
+
+# Topics
+MVI - Model View Intent https://medium.com/huawei-developers/stateful-android-apps-with-mvi-architecture-model-view-intent-d106b09bd967
+Sealed Classes https://medium.com/@sandeepkella23/everything-about-sealed-classes-in-kotlin-de525b98b192
